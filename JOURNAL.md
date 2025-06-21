@@ -22,3 +22,7 @@ Time skip, its 9PM now, I think Im beginning to learn about kicad. So far chatgp
 
 10 PM: I cant find the TM 1637 4 digit display thing so I just used a generic 4 digit input. I currently figured out that I need to wire the ground and the 5V thing to all the displays.
 
+2025-06-20:
+
+Today I continued drawing the schematic, linking up all of the 4 / 6 digit displays. I also bought a board with atmega2560 which is compatiable. However, I bought a cheap version with a processor called CH340 that needed a driver. I was able to download the driver easily but spent a long time trying to get mobiflight and the arduino IDE to recognise the board. Turns out, I used the wrong cable. It worked once I switched my cable to a cooler-looking one.
+
