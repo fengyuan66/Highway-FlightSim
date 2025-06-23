@@ -26,3 +26,22 @@ Time skip, its 9PM now, I think Im beginning to learn about kicad. So far chatgp
 
 Today I continued drawing the schematic, linking up all of the 4 / 6 digit displays. I also bought a board with atmega2560 which is compatiable. However, I bought a cheap version with a processor called CH340 that needed a driver. I was able to download the driver easily but spent a long time trying to get mobiflight and the arduino IDE to recognise the board. Turns out, I used the wrong cable. It worked once I switched my cable to a cooler-looking one.
 
+2025-06-21:
+
+Drew schematics for the rotary encoders.
+
+11:30 PM:
+
+Finished drawing schematics! Will move onto 3D model next
+
+2025-06-22：
+
+Finished working on the front panel, need to do case next
+
+The difficult thing (other than learning fusion) is actually to find the dimensions of the parts Im gonna use. A lot of those amazon / aliexpress sellers do not provide enough info. I did my best to track down data sheets / posts with dimensions but they may be inaccurate so I'll measure it physically after I get my parts. For now, all holes are cut according to the best info I can find.
+
+Finished casing
+
+2025-06-23: 
+
+Will try to use one of those tools to make my design 3D printing-friendly
