@@ -134,10 +134,18 @@ TIME: (remembered to include as part of journal from here onwards): 2 hours 1 mi
 
 2025-06-25:
 
-Contacted a printing legion guy in Toronto to get my parts 3D printed. It's going smooth so far. When its done, Ill purchase a prepaid shipping label and include the shipping label cost in the BOM (at least that's what I've heard).
+Contacted a printing legion guy in Toronto to get my parts 3D printed. It's going smooth so far. When it's done, Ill purchase a prepaid shipping label and include the shipping label cost in the BOM (at least that's what I've heard).
 
 IMAGES:
 ![alt text](image-2.png)
 The back, left and right side walls of the FCU casing after being printed in the printer.
+
+TIME: none.
+
+
+
+2025-06-26
+
+The parts are done printing. I just need to wait for the printing legion guy to provide some info so that I can buy the prepaid shipping label.
 
 TIME: none.
