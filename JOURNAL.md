@@ -93,13 +93,13 @@ IMAGES (forgot to insert initially, had to recall):
 ![alt text](Assets/image.png)
 A listing of my model which contains a diagram at the bottom. However, notice how the picture near the diagram was different from the listing's picture? Signs of inconsistency like these make it difficult to guarantee the exact dimensions of parts.
 
-![alt text](image-1.png)
+![alt text](Assets/image-1.png)
 The diagram of the 4-digit display I eventually decided to trust because it showed no inconsistencies with the post.
 
-![alt text]({36C88A8F-CC9F-434F-930D-8AE9430665AE}.png)
+![alt text](Assets/{36C88A8F-CC9F-434F-930D-8AE9430665AE}.png)
 The FCU panel version at that time.
 
-![alt text]({0C386C8B-F39E-4B7C-9FEB-41FFE35DBD55}.png)
+![alt text](Assets/{0C386C8B-F39E-4B7C-9FEB-41FFE35DBD55}.png)
 The FCU cover version at that time
 
 TIME:（I forgot to record time), estimate ~5 hours
@@ -113,20 +113,20 @@ Will try to use one of those tools to make my design 3D printing-friendly.
 Ended up finding that I can cut directly in fusion360. The casing is now separated into separate parts. The pillars for the screws are separated and shortened to conserve materials and printing time. I downloaded them as individual mesh files and added screw holes to the pillars which screws are to go in. The screws will be tapped after 3D printing so only a simple cylinder is needed. I plan to use m2 screws.
 
 Crap. After putting the cover and panel together, I realised that my numbers were wrong and that there was a gap:
-![alt text]({DD00D0FC-9FB3-45BD-9D91-5937A67CFC00}.png) 
+![alt text](Assets/{DD00D0FC-9FB3-45BD-9D91-5937A67CFC00}.png) 
 Update: I fixed it with the pull feature.
 
 I also added screw holes for the front panel. I think I got the math right so it should align with the screw holes in the FCU cover once assembled. Though I'm not sure if hot glue could offset the pillar and make the two holes not aligned.
 
 IMAGES (remembered to include as part of journal from here onwards):
 
-![alt text]({54EBFF67-152B-491E-8188-83E1CDC7AFCB}.png)
+![alt text](Assets/{54EBFF67-152B-491E-8188-83E1CDC7AFCB}.png)
 The FCU cover, now split off into separate objects
 
-![alt text]({328C979E-660C-4C35-B66C-8C0696C78CEF}.png)
+![alt text](Assets/{328C979E-660C-4C35-B66C-8C0696C78CEF}.png)
 1.7mm holes are now in the trusses.
 
-![alt text]({0879782E-7165-493F-8B71-AC701F02BF39}.png)
+![alt text](Assets/{0879782E-7165-493F-8B71-AC701F02BF39}.png)
 The FCU panel, now with holes for tapping in m2 screws.
 
 TIME: (remembered to include as part of journal from here onwards): 2 hours 1 minutes
@@ -137,7 +137,7 @@ TIME: (remembered to include as part of journal from here onwards): 2 hours 1 mi
 Contacted a printing legion guy in Toronto to get my parts 3D printed. It's going smooth so far. When it's done, Ill purchase a prepaid shipping label and include the shipping label cost in the BOM (at least that's what I've heard).
 
 IMAGES:
-![alt text](image-2.png)
+![alt text](Assets/image-2.png)
 The back, left and right side walls of the FCU casing after being printed in the printer.
 
 TIME: none.
