@@ -5,6 +5,8 @@ created_at: 2025-06-13
 
 -----------------------------------------------------
 
+<h3>Total time spent so far: 12 hrs 1 min</h3>
+
 <h2>2025-06-15:</h2>
 
 I had no idea what to do. Apparently the Arduino Leonardo board I had was not supported by Mobiflight (A software to make hardware inputs understandable for Microsoft Flight Simulator). My idea rn is to:
@@ -21,7 +23,7 @@ I dont want to mess it up and then have it not work once I ordered.
 ![alt text](Assets/{006A0AA3-C53E-4BF4-90D4-DFC635821DB1}.png)
 This is a tutorial that I found most helpful, some of the parts used were the exact same as mine so I was able to reference its 3d model when I couldnt find the exact dimension of parts later.
 
-<h3>TIME:（I forgot to record time initially), estimate ~25 minutes</h3>
+<h3>TIME:（I forgot to record time initially), estimate ~25 minutes</h3> 25 min + 1 hr + 35 mins + 3 hrs + 5 hrs + 2hr 1 min
 
 
 
