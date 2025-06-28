@@ -137,6 +137,7 @@ The FCU panel, now with holes for tapping in m2 screws.
 Contacted a printing legion guy in Toronto to get my parts 3D printed. It's going smooth so far. When it's done, Ill purchase a prepaid shipping label and include the shipping label cost in the BOM (at least that's what I've heard).
 
 <h3>IMAGES:</h3>
+
 ![alt text](Assets/image-2.png)
 The back, left and right side walls of the FCU casing after being printed in the printer.
 
