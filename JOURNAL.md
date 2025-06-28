@@ -5,7 +5,7 @@ created_at: 2025-06-13
 
 -----------------------------------------------------
 
-**2025-06-15:**
+<h2>2025-06-15:<h2>
 
 I had no idea what to do. Apparently the Arduino Leonardo board I had was not supported by Mobiflight (A software to make hardware inputs understandable for Microsoft Flight Simulator). My idea rn is to:
 
@@ -25,7 +25,7 @@ TIME:（I forgot to record time), estimate ~25 minutes
 
 
 
-**2025-06-16:**
+<h2>2025-06-16:<h2>
 
 Today I downloaded Mobiflight and started referencing a button tutorial. I don't really know what to do so I'll watch some tutorials.
 
@@ -45,7 +45,7 @@ TIME:（I forgot to record time), estimate ~1 hour
 
 
 
-**2025-06-20:**
+<h2>2025-06-20:<h2>
 
 Today I continued drawing the schematic, linking up all of the 4 / 6 digit displays. I also bought a board with atmega2560 which is compatiable (with the Mobiflight software). However, I bought a cheap version with a processor called CH340 that needed a driver. I was able to download the driver easily but spent a long time trying to get mobiflight and the arduino IDE to recognise the board. Turns out, I used the wrong cable. It worked once I switched my cable to a cooler-looking one.
 
@@ -63,7 +63,7 @@ TIME:（I forgot to record time), estimate ~35 minutes
 
 
 
-**2025-06-21:**
+<h2>2025-06-21:<h2>
 
 Drew schematics for the rotary encoders.
 
@@ -80,7 +80,7 @@ TIME:（I forgot to record time), estimate ~3 hours
 
 
 
-**2025-06-22：**
+<h2>2025-06-22：<h2>
 
 Finished working on the front panel, need to do case next
 
@@ -106,7 +106,7 @@ TIME:（I forgot to record time), estimate ~5 hours
 
 
 
-**2025-06-23:**
+<h2>2025-06-23:<h2>
 
 Will try to use one of those tools to make my design 3D printing-friendly. 
 
@@ -132,7 +132,7 @@ The FCU panel, now with holes for tapping in m2 screws.
 TIME: (remembered to include as part of journal from here onwards): 2 hours 1 minutes
 
 
-**2025-06-25:**
+<h2>2025-06-25:<h2>
 
 Contacted a printing legion guy in Toronto to get my parts 3D printed. It's going smooth so far. When it's done, Ill purchase a prepaid shipping label and include the shipping label cost in the BOM (at least that's what I've heard).
 
@@ -144,7 +144,7 @@ TIME: none.
 
 
 
-**2025-06-26**
+<h2>2025-06-26<h2>
 
 The parts are done printing. I just need to wait for the printing legion guy to provide some info so that I can buy the prepaid shipping label.
 
