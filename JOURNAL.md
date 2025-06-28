@@ -18,7 +18,7 @@ I dont want to mess it up and then have it not work once I ordered.
 
 IMAGES (forgot to insert initially, had to recall):
 
-![alt text]({006A0AA3-C53E-4BF4-90D4-DFC635821DB1}.png)
+![alt text](Assets/{006A0AA3-C53E-4BF4-90D4-DFC635821DB1}.png)
 This is a tutorial that I found most helpful, some of the parts used were the exact same as mine so I was able to reference its 3d model when I couldnt find the exact dimension of parts later.
 
 TIME:（I forgot to record time), estimate ~25 minutes
@@ -35,10 +35,10 @@ Time skip, its 9PM now, I think Im beginning to learn about kicad. So far chatgp
 
 IMAGES (forgot to insert initially, had to recall):
 
-![alt text]({BF42E258-31F5-424A-AE57-8EDF84792AA8}.png)
+![alt text](Assets/{BF42E258-31F5-424A-AE57-8EDF84792AA8}.png)
 This was the library I found. It contained many kicad symbols of arduino boards. I found one with a similar sounding name as my Mega2560 Pro Micro. I verified with ChatGPT and it told me that the symbol was correct.
 
-![alt text]({03511328-8371-42F2-8558-20519265484A}.png)
+![alt text](Assets/{03511328-8371-42F2-8558-20519265484A}.png)
 The generic 4 pin symbol. It did not allow me to change the text on the pins but ChatGPT told me which corresponded to which.
 
 TIME:（I forgot to record time), estimate ~1 hour
@@ -51,12 +51,12 @@ Today I continued drawing the schematic, linking up all of the 4 / 6 digit displ
 
 IMAGES (forgot to insert initially, had to recall):
 
-![alt text]({E6DEC7E2-82EC-4A08-9586-B7AB15D43F47}.png)
+![alt text](Assets/{E6DEC7E2-82EC-4A08-9586-B7AB15D43F47}.png)
 The driver installation tool. Interestingly it said that the driver was pre-installed on my machine but could not find a driver when I tried to uninstall.
 
-![alt text](IMG_20250623_170620.jpg)
+![alt text](Assets/IMG_20250623_170620.jpg)
 This was the cable I used. I thought that it was a driver failure and that this cable actually transmitted data due to its thickness.
-![alt text](IMG_20250623_170539.jpg)
+![alt text](Assets/IMG_20250623_170539.jpg)
 This was the cable that actually worked. Looks deceive, that's all I can say.
 
 TIME:（I forgot to record time), estimate ~35 minutes
@@ -73,7 +73,7 @@ Finished drawing schematics! Will move onto 3D model next
 
 IMAGES (forgot to insert initially, had to recall):
 
-![alt text]({BF90E44C-8AFE-4934-B31E-95F017390DAC}.png)
+![alt text](Assets/{BF90E44C-8AFE-4934-B31E-95F017390DAC}.png)
 The completed schematic diagram
 
 TIME:（I forgot to record time), estimate ~3 hours
