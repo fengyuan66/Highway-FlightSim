@@ -49,7 +49,7 @@ The generic 4 pin symbol. It did not allow me to change the text on the pins but
 
 Today I continued drawing the schematic, linking up all of the 4 / 6 digit displays. I also bought a board with atmega2560 which is compatiable (with the Mobiflight software). However, I bought a cheap version with a processor called CH340 that needed a driver. I was able to download the driver easily but spent a long time trying to get mobiflight and the arduino IDE to recognise the board. Turns out, I used the wrong cable. It worked once I switched my cable to a cooler-looking one.
 
-IMAGES (forgot to insert initially, had to recall):
+<h3>IMAGES (forgot to insert initially, had to recall):</h3>
 
 ![alt text](Assets/{E6DEC7E2-82EC-4A08-9586-B7AB15D43F47}.png)
 The driver installation tool. Interestingly it said that the driver was pre-installed on my machine but could not find a driver when I tried to uninstall.
