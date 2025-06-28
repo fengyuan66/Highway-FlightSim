@@ -38,9 +38,12 @@ Having physical controls over the flight simulator is much better than using a m
 <h3>Pictures of my project</h3>
 
 **Full 3D model**
+
 ![alt text](Assets/FCU_FULL.PNG)
 
 **Wiring schematic**
+
+
 ![alt text](Assets/FCU_WIRING_DIAGRAM_PDF.svg)
 
 
