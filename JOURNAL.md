@@ -90,7 +90,7 @@ Finished casing
 
 IMAGES (forgot to insert initially, had to recall):
 
-![alt text](image.png)
+![alt text](Assets/image.png)
 A listing of my model which contains a diagram at the bottom. However, notice how the picture near the diagram was different from the listing's picture? Signs of inconsistency like these make it difficult to guarantee the exact dimensions of parts.
 
 ![alt text](image-1.png)
