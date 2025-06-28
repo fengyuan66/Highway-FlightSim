@@ -41,7 +41,7 @@ Having physical controls over the flight simulator is much better than using a m
 ![alt text](Assets/FCU_FULL.PNG)
 
 **Wiring schematic**
-[text](Assets/FCU_WIRING_DIAGRAM_PDF.pdf)
+![alt text](Assets/FCU_WIRING_DIAGRAM_PDF.SVG)
 
 
 
