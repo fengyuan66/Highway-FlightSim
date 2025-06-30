@@ -41,6 +41,9 @@ Having physical controls over the flight simulator is much better than using a m
 
 ![alt text](Assets/FCU_FULL.PNG)
 
+Picture of my STEP file, all components have been laid out in printable form
+
+![alt text](Assets/STEPFILEAUTOPILOT.PNG)
 
 **Wiring schematic**
 
