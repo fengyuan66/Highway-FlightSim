@@ -155,8 +155,6 @@ The back, left and right side walls of the FCU casing after being printed in the
 The parts are done printing. I just need to wait for the printing legion guy to provide some info so that I can buy the prepaid shipping label.
 
 <h3>TIME:</h3> none.
-<<<<<<< Updated upstream
-=======
 
 <h2>2025-07-03</h2>
 
@@ -164,4 +162,3 @@ Horray the 3D printed parts have arrived!
 
 <h3>TIME:</h3> none
 
->>>>>>> Stashed changes
