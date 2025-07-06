@@ -39,7 +39,9 @@ Having physical controls over the flight simulator is much better than using a m
 
 **Full 3D model**
 
-![alt text](Assets/FCU_FULL.PNG)
+Full 3D model, with electronics included. Please note that some electronics I'm using do not have exact models on the 3D models website, so the colour may be off. Certain parts where things seem to overlap with eachother is also sometimes okay because some parts (nuts) can be moved during installation.
+
+![alt text](Assets/image_lonewolf.png)
 
 Picture of my STEP file, all components have been laid out in printable form
 

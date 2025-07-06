@@ -26,7 +26,7 @@ I dont want to mess it up and then have it not work once I ordered.
 ![alt text](Assets/{006A0AA3-C53E-4BF4-90D4-DFC635821DB1}.png)
 This is a tutorial that I found most helpful, some of the parts used were the exact same as mine so I was able to reference its 3d model when I couldnt find the exact dimension of parts later.
 
-<h3>TIME:（I forgot to record time initially), estimate ~25 minutes</h3> 25 min + 1 hr + 35 mins + 3 hrs + 5 hrs + 2hr 1 min
+<h3>TIME:（I forgot to record time initially), estimate ~25 minutes</h3>
 
 
 
@@ -162,3 +162,12 @@ Horray the 3D printed parts have arrived!
 
 <h3>TIME:</h3> none
 
+<h2>2025-07-06</h2>
+
+I'm actually super anxious rn, my re-review status got flipped from accepted (tenatively) to pending...
+
+Anyways, turns out that I need electronic components in my 3D model, so I worked on a version with electronic included. You know how I complained about not finding dimensions of components for designing the 3D model? Well turns out my friend showed me this very great site with a lot of 3D models of electronic components on it. Now I can just put it in and know how large / small things need to be!
+
+![alt text](Assets/{380A94B0-049D-4616-8B41-01753CBEFE91}.png)
+
+<h3>TIME:</h3> 43 minutes
