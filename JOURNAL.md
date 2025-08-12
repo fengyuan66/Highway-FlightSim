@@ -8,7 +8,7 @@ created_at: 2025-06-13
 
 -----------------------------------------------------
 
-<h3>Total time spent so far: 12 hrs 44 min</h3>
+<h3>Total time spent so far: 27 hrs 39 min</h3>
 
 <h2>2025-06-15:</h2>
 
@@ -278,6 +278,6 @@ So that takes us to 3 AM, probably isn't the most efficient working time for tho
 
 ![alt text](Assets/SecondTransfer/image-12.png)
 
-So yeah, that's done for now, we've got a working product. I'd need to disassemble to case and take the whole batch back to Vancouver. This will definitely be used in my aviation club this schoolyear. Maybe this is the first step of my home cockpit, maybe I'll be too busy so maybe not. Bye~
+So yeah, that's done for now, we've got a working product. I'd need to disassemble to case and take the whole batch back to Vancouver. This will definitely be used in my aviation club this schoolyear. Maybe this is the first step of my home cockpit, maybe I'll be too busy so maybe not. But it'd definitely be my foot in the door for hardware stuff and saving money on flight simulation. Bye~
 
 <h3>Active time spent: 9AM-3:45AM - unproductive times = ~14 hours and 45 minutes</h3>
