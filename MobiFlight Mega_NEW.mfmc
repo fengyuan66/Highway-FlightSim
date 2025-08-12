@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Mega</ModuleType>
+  <ModuleName>MobiFlight Mega</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Encoder Name="SPD RE" PinLeft="41" PinRight="39" EncoderType="0" />
+  <Button Name="SPD RE B" Pin="37" />
+  <Encoder Name="ALT RE" PinLeft="40" PinRight="38" EncoderType="0" />
+  <Button Name="ALT RE B" Pin="36" />
+  <Encoder Name="HDG RE" PinLeft="47" PinRight="45" EncoderType="0" />
+  <Button Name="HDG RE B" Pin="43" />
+  <Encoder Name="VS RE" PinLeft="46" PinRight="44" EncoderType="0" />
+  <Button Name="VS RE B" Pin="42" />
+  <LedModule Name="SPD DIS" ModelType="253" DinPin="48" ClsPin="0" ClkPin="49" Brightness="15" NumModules="1" />
+  <LedModule Name="HDG DIS" ModelType="253" DinPin="50" ClsPin="0" ClkPin="51" Brightness="15" NumModules="1" />
+  <LedModule Name="VS DIS" ModelType="253" DinPin="52" ClsPin="0" ClkPin="53" Brightness="15" NumModules="1" />
+  <Button Name="SPD TOGGLE" Pin="2" />
+  <Button Name="CENTRE TOGGLE" Pin="3" />
+  <Button Name="VS TOGGLE" Pin="4" />
+  <Button Name="KD2 1" Pin="21" />
+  <Output Name="LED KD2 1" Pin="20" />
+  <Button Name="KD2 2" Pin="23" />
+  <Button Name="KD2 3" Pin="27" />
+  <Button Name="KD2 4" Pin="25" />
+  <Button Name="KD2 5" Pin="29" />
+  <Button Name="KD2 6" Pin="31" />
+  <Output Name="LED KD2 2" Pin="22" />
+  <Output Name="LED KD 2 3" Pin="26" />
+  <Output Name="LED KD 2 4" Pin="24" />
+  <Output Name="LED KD 2 5" Pin="28" />
+  <Output Name="LED KD 2 6" Pin="30" />
+</Config>

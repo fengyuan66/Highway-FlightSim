@@ -37,6 +37,14 @@ Having physical controls over the flight simulator is much better than using a m
 
 <h3>Pictures of my project</h3>
 
+**Completed picture!!! yay!**
+
+![alt text](Assets/SecondTransfer/image-13.png)
+
+**It in action**
+
+![alt text](Assets/SecondTransfer/image-14.png)
+
 **Full 3D model**
 
 Full 3D model, with electronics included. Please note that some electronics I'm using do not have exact models on the 3D models website, so the colour may be off. Certain parts where things seem to overlap with eachother is also sometimes okay because some parts (nuts) can be moved during installation.

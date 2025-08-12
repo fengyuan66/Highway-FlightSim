@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="ca2698d5-1829-4707-9cbb-0f1b2418401e">
+      <active>true</active>
+      <description>FCU SPD DIS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07E2" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" ledAddress="SPD DIS" ledConnector="1" ledModuleSize="4" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="51c6bd99-960b-422e-83e1-3ecf57087e5f">
+      <active>true</active>
+      <description>FCU HDG DIS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07CC" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="($ * 360) / 65536" />
+          <comparison active="True" value="0" operand="&lt;=" ifValue="$+360" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" ledAddress="HDG DIS" ledConnector="1" ledModuleSize="3" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3a4ab277-d62d-4bd0-9993-75376593b04a">
+      <active>true</active>
+      <description>FCU VS DIS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07F2" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" ledAddress="VS DIS" ledConnector="1" ledModuleSize="4" ledPadding="False" ledPaddingChar=" " ledDigits="0,1,2,3" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0047aa1f-a9e7-4042-93ff-8ea94592146f">
+      <active>true</active>
+      <description>KD2LED Test</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07BC" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" pin="LED KD2 1|LED KD 2 3" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1c2199b0-d839-447b-94b2-34b8824e8e60">
+      <active>true</active>
+      <description>KD2 6 LED APPR</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x0800" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" pin="LED KD 2 6" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3ff823d9-df34-4c11-974d-3fdd329c2001">
+      <active>true</active>
+      <description>KD2 5 LED LOC</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07C4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" pin="LED KD 2 5" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c864b9b6-6e9e-4f6a-8c16-bdd92a4a7c47">
+      <active>true</active>
+      <description>KD2 4 LED MASTER</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07BC" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" pin="LED KD 2 4" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cad04817-1af7-435b-9e04-4cde8df7a43c">
+      <active>true</active>
+      <description>KD2 2 LED ATTR</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x0810" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="MobiFlight Mega/ SN-63C-8CC" trigger="normal" pin="LED KD2 2" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="daf22ab2-cf91-4436-9ef1-2f53239608c6">
+      <active>false</active>
+      <description>Rotary_Encoder_Test</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="ALT RE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x311A" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="True" inputValue="$-1" />
+          </onLeft>
+          <onLeftFast />
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x311A" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="True" inputValue="$+1" />
+          </onRight>
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1da4adf9-118d-4804-b384-f6f3274d6065">
+      <active>true</active>
+      <description>FCU_SPD_RE</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="SPD RE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07E2" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" inputValue="$-1" />
+          </onLeft>
+          <onLeftFast />
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07E2" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" inputValue="$+1" />
+          </onRight>
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="83894433-1727-4815-913f-eb1380670435">
+      <active>true</active>
+      <description>FCU_HDG_RE</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="ALT RE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07CC" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" inputValue="" />
+          </onLeft>
+          <onLeftFast />
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07CC" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" inputValue="" />
+          </onRight>
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="626c3c33-813c-4010-9552-56e7ee3ef19d">
+      <active>true</active>
+      <description>FCU_VS_RE</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="VS RE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07F2" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" inputValue="$-100" />
+          </onLeft>
+          <onLeftFast />
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07F2" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" inputValue="$+100" />
+          </onRight>
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a83d186e-2665-46fb-a10c-b2b355febbc1">
+      <active>true</active>
+      <description>FCU_ALT_RE</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="HDG RE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$-100" />
+          </onLeft>
+          <onLeftFast />
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$+100" />
+          </onRight>
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cfc25d40-1f2b-4bcc-828a-1859f4756f0e">
+      <active>false</active>
+      <description>RotTestV1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="SPD RE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07CC" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="True" inputValue="$+1" />
+          </onLeft>
+          <onLeftFast />
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07CC" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="True" inputValue="$-1" />
+          </onRight>
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="616b9cb6-87bc-4937-a673-d739dd6ac536">
+      <active>true</active>
+      <description>FCU_SPD_RE_B</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="SPD RE B" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65859" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dbe15aad-0c11-4d6a-a2cc-e6b8dc796884">
+      <active>true</active>
+      <description>FCU_ALT_RE_B</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="HDG RE B" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65726" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7fe806fe-3c1c-4e9e-bd47-d5f4ac5194fc">
+      <active>true</active>
+      <description>FCU_HDG_RE_B</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="ALT RE B" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65798" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f2707271-f95b-430d-ba26-923e15899b2f">
+      <active>true</active>
+      <description>FCU_VS_RE_B</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="VS RE B" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="66099" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="69e3ebac-54fc-4997-9b01-99bfb7aa9c14">
+      <active>true</active>
+      <description>FCU_SPD_TOGGLE</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="SPD TOGGLE" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65915" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dd52625f-4e8f-4c5a-85df-93b734953b73">
+      <active>false</active>
+      <description>FCU_CENTER_TOGGLE</description>
+    </config>
+    <config guid="53679c0c-6216-4823-bfe2-3288dcf9494c">
+      <active>false</active>
+      <description>FCU_VS_TOGGLE</description>
+    </config>
+    <config guid="3087044d-d6f0-4561-995a-17ebe2e4d3eb">
+      <active>true</active>
+      <description>KD2Test</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="KD2 6" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65806" param="0" />
+          <onRelease type="EventIdInputAction" eventId="65814" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fed6699b-256c-46fb-8ae6-120970ee2e27">
+      <active>true</active>
+      <description>KD2 5_LOC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="KD2 5" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65811" param="0" />
+          <onRelease type="EventIdInputAction" eventId="65819" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d4d94830-a3b2-4234-a8e0-f06e856b6d48">
+      <active>true</active>
+      <description>KD 4_MASTER</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="KD2 4" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65580" param="0" />
+          <onRelease type="EventIdInputAction" eventId="65580" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="65e819c0-34cc-4a5b-bd6f-ad6b89c2aefb">
+      <active>true</active>
+      <description>KD2 2_ATTR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="KD2 2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65860" param="0" />
+          <onRelease type="EventIdInputAction" eventId="65860" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5f7d3100-25a2-4624-a7c2-01485b3d107f">
+      <active>false</active>
+      <description>KD2 3_RADIOSWAP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="KD2 3" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="66741" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4e4bd626-63cd-4271-93c7-20961964f005">
+      <active>false</active>
+      <description>KD2 1_LIGHTS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Mega/ SN-63C-8CC" name="KD2 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="65574" param="0" />
+          <onRelease type="EventIdInputAction" eventId="65574" param="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
