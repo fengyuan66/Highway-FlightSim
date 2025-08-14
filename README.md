@@ -1,6 +1,9 @@
 # Highway-FlightSim
 Flight simulator repository for my Highways project
 
+<h3>YouTube video demo link</h3>
+https://youtu.be/Q90917BsKVE
+
 <h3>Project Description</h3>
 
 This is a piece of hardware that can be used in a flight simulator. In particular, it is the Flight Control Unit (FCU), otherwise known as the autopilot. I tried my best to make its design mimic that of the Airbus A320. This project can be plugged into a computer and communicate with Microsoft Flight Simulator with the help of Mobiflight, a software which helps translate hardware inputs to Microsoft Flight Simulator. Users can configure the aircraft's FCU in the simulator by interacting with their physical counterparts, providing a very accurate simulation. 
